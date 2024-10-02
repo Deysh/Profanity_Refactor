@@ -1,0 +1,569 @@
+<!--
+These settings done on a 1080x1920 resolution, Ubuntu Monospace Regular size 12 font, Terminal window fully maxed.
+Includes preset highlight colors for merchants/GMs/staff, wizards, sorcerers, empaths, clerics, and rangers.
+-->
+<settings>
+	<highlight fg='9090ff'>^(?:You gesture|You intone a phrase of elemental power|You recite a series of mystical phrases|You trace a series of glowing runes|Your hands glow with power as you invoke|You trace a simple rune while intoning|You trace a sign while petitioning the spirits|You trace an intricate sign that contorts in the air).*$</highlight>
+	<highlight fg='9090ff'>^(?:Cast Roundtime 3 Seconds\.|Your spell is ready\.)$</highlight>
+	<highlight fg="a6e22e">coraesine|urnon|glass and pink pearl jar|pearly grey glass jar|cobalt glass lapis-rimmed jar|pearly white glass jar</highlight>
+	<highlight fg='9090ff'>^.*remaining\. \]$</highlight>
+	<highlight fg='88aaff'>([A-Z][a-z]+ disk)</highlight>
+	<highlight fg='00FF00'>(Last Hunt:.*|Next Locksmith:.*|You picked.*|Not Hunting.*)</highlight>
+	<highlight fg='a6e22e'>(.*(Account|Announcement).*)</highlight>
+	<highlight fg='00FF00'>(.*Thy offering pleases the Goddess and thy.*)</highlight>
+	<highlight fg='88aaff'>(\[.*?\d{2,}\] ?\(.*)</highlight>	
+	<!-- <highlight fg='88aaff'>(\[.*?\d{2,}\])</highlight>	 -->
+	<highlight fg='88aaff'>(\[pickbot: (new_key|Result).*?\])</highlight>	
+	<highlight fg='88aaff'>(.*lumnis available.*)</highlight>	
+	<highlight fg='555555'>^\[.*?\](?:>|&gt;).*$</highlight>
+	<highlight fg='555555'>\([0-9][0-9]\:[0-9][0-9]\:[0-9][0-9]\)$</highlight>
+	<highlight fg='339999'>^\[Private(?:To)?\]|Also here:|Bounty: </highlight>
+	<highlight fg='008000'>^\[code\]</highlight>
+	<highlight fg="ff4444">Muscles bunching under its scaled flesh*</highlight>
+	<highlight fg='D46A6A'>
+		^\[Merchant\]
+		|(churning|gas|dark)\scloud
+		|warrior\snaturalist
+		|\ssticky web|\svoid
+		|You shiver slightly as an invisible rash covers your body!
+		|A pale, flickering nimbus coalesces around (.*?), then vanishes in a brilliant flash!
+		|^SEND.*
+	</highlight>
+	
+	<!--Default Lich Channel Name-->
+	<highlight fg='00C851'>
+		^\[(.*?)\]
+		|^The\s(.*?)\sscene\smelds\salmost\sseemlessly(.*?)$
+	</highlight>
+	<highlight fg='CD72AB'>
+		 Running heedlessly through the icy terrain, you slip on a patch of ice but catch yourself before you truly lose your footing.
+		|The auctioneer calls out|Guild voucher pack
+		|urglaes|You\ssense\syou\shave\sjust\swon\sa\sraffle
+		|You.*a large brown bullhead catfish.*bank.|You.*a gnome sized catfish.*bank.
+		|You have just won a JACKPOT prize!!!
+		|The (.*?) comes to a stop pointing directly at (.*?)!
+		|You\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.take\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.a\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.deep\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.breath,\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.and\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.look\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.around\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.with\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.renewed\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.vigor.\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.It\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.is\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.good\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.to\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.be\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.alive,\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.and\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.an\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.adventurer\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.in\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.this\sYou\stake\sa\sdeep\sbreath,\sand\slook\saround\swith\srenewed\svigor.\s\sIt\sis\sgood\sto\sbe\salive,\sand\san\sadventurer\sin\sthis\sland.land.
+		|^You glance down to see (.*?)\.$
+	</highlight>
+	<!--Merchant Color-->
+	<highlight fg='FFFF00' bg='000000'>
+		\b(?:Cularin|Farain|Fesnav|Gizwizit|Ianthra|Imie|Ingela|Krelp|Ledirth|Lillabella|Lottianne|Phrolo|Roxe|Rumdotter|Ryelle|Sanster|Sauli|Stikla|Tartingworth|Thris|Toebeard|Tott|Twobits|Velade|Zoltak|Omare|Bobbler|Louella|Denison|Aristolo|Carax|Flem|Pennyworth|Vermin|Flynvias|Hending|Estinelle|Irelain|Ersix|Tredohal|Naelyne|Ravias|Xerria|Sycira|Nycolle|Oirisu|Joola|VeolaTwiddley|Haleen|Merrielle|Fryta|Zanthie|Leanney|Vahmyr|Valinda|Veola|Theammer|Treysen|Shurley|Bazzelwyn|Felthrop|Mortasha|Yansio|Glearnim|Archiwald|Tintrel|Daxela|Mitsoku|Deringo|Cocobolo|Glowbark|Ipantor|Bethezda|Hyrmea|Trulee|Jorshan|Jellybeard|Brumas|Tolby|Kroa|Kyrdra|Blusteri|Bliza|Surofee|Eosten|Jiddie|Xylophonia|Weverly|Zenlia|Litiken|Andagia|Vemeon|Sammee|Goldilynn|Nyck|Falshka|Pebbi|Zendrian|Evrick|Airisu|Bisha|Ulatari|Goblyn|Grobey|Lorgen|Dawdly|Furlow|Kyrinthe|Vilara|Comida|Bartoldt|Duplicity|Cranstal|Blodau|Moltin|Genose|Sonnora|Edero|Druena|Orbele|Zoece|Marutra|Almyra|Boring|Paralassa|Iacl|Pelil|Onriru|Zetya|Rikelle|Shahno|Philonar|Evric|Genetoba|Egton|Ganzer|Artapel|Jensun|Arlyle|Sunex|Hkala|Binklar|Liktiken|Fana|Favretto|Onetta|Gubskut|Olthos|Maialynn|Mercell|Ysadiana|Selandrine|Ianwel|Ezmerilla|Gelynne|Twiddley|Myasara|Murstyr|Qalinor|Cyik|Jaranzair|Intuitaur|Alasylis|Reyonolis|Kylistra|Quinshon|Madrim|Caelyna|Tysiri|Evlissa|Culd|Zieschka|Riuven|Yriwyn|Seskel|Otuio|Twigxt|Odoff|Idiya|Dubrin|Benejay|Elmherst|Clefford|Tanki|Baynier|Teuriz|Stephos|Wyrom|Rinnok|Ohshean|Vanetti|Junderthal|Marent|Calpa|Clamn|Eelsa|Shubbaz|Sakurvee|Aslyrion|Beitris|Bimbibick|Chelise|Damp|Dipideedoo|Drezda|Frazzelwyn|Gunkweeler|Hibis|Nimaya|Phey|Sylvere|Taionia|Tholok|Tufeetti|Upsy|Varilora|Yarimore|Zylder|Saryen|Elsia|Chariot|Aneela|Escott|Zylders|Zyders|Ahriel|Annanasi|Nezlyn|Sharlatta|Rone|Malluch|Schalyne|Jahosk|Mishrac|Hantine|Renpaw|Olba|Dett|Naughtbrite|Rashiva|Aepoch|Baroqe|Davro|Skryn|Lahke|Shrubley|Nynria|Brisstle|Orasia|Korvera|Charyia|Flaeshorn|Grolf|Holtum|Kyrralynn|Moirralynn|Nimudi|Perdu|Phestor|Sprague|Upai|Ymantha|Ziito|Hexxie|Toffit|Essensia|Tufeeti|Chubbins|Altissima|Sneen|Llalariel|Firio|Fright|Bastique|Hylania|Deloras|Sunliliye|Maragold|Karuseau|Dahria|Ulda|Feliathes|Weensie|Crondi|Urszula|Nymasha|Tselise|Ambie|Millicent|Hepit)\b
+		|^(.*?) glows brightly then suddenly shatters!$
+	</highlight>
+	<!--Bard Characters-->
+	<highlight  fg='45C2EF'>
+		\b(?:Alto|Ariel|
+			|Biden|
+			|Camina|Celebros|Charrlie|
+      |Dramij|Dravmij|
+			|Gotti|
+      |Jimmybuffet|
+      |Krycek|
+			|Mercury|Mick|Monty|Mulder|Murderface|
+      |Naiomi|
+			|Pablo|Parts|
+      |Rovasong|
+			|Shab|Sinatra|Skinner|
+      |Tigobitties|
+			|Urst|
+      |Vaprak|
+			|Wilhelm)\b
+	</highlight>
+	
+	<!--Cleric Characters-->
+	<highlight fg='F99487' >
+		\b(?:
+      |Abbit|Abeol|Abilena|Ableus|Absolve|Academecian|Ackerton|Acolyte|Adaric|Adoran|Aearia|Aegirs|Aeolis|Aeonelas|Aeronal|Aescall|Aethor|Aganii|Aglarim|Ahmeogh|Ahnya|Aiceman|Aiya|Ajek|Ajuni|Akarah|Akindas|Akobar|Aladia|Alahnna|Albanus|Alditt|Alfred|Alidia|Alinev|Alisin|Allayoop|Allous|Allurer|Allyrisa|Almihti|Alsaro|Altonias|Alyisa|Alysianne|Amacir|Amalara|Amallus|Amberpurr|Amerelle|Ammethyst|Amminar|Amtrisia|Anatori|Andoff|Andrelian|Andwyn|Anemegus|Anguta|Anidario|Anjaniri|Annachie|Anniem|Annorax|Annushka|Annwn|Anolie|Anryk|Anthalos|Antherion|Aolmenra|Ardkor|Ardocke|Ares|Arianiss|Ariikar|Arkekai|Arkess|Arnylon|Aronnor|Arquilen|Artans|Arulisse|Arvial|Aryleste|Asalie|Asarious|Ashkita|Ashra|Ashroth|Asy|Ataulfo|Atland|Attania|Aturne|Aubriella|Audrie|Aumm|Auragin|Auroraa|Auttaja|Avantos|Avator|Aveka|Avern|Aveyln|Avoreen|Ayaki|Ayldn|Aymone|Ayvah|Azalie|Azalye|Azdaja|Azona|
+      |Baarluf|Baloranch|Banestone|Barble|Baruz|Basin|Bastida|Batanaka|Bawaust|Baylis|Bellaja|Berador|Bernadino|Bethshayna|Bhodisattva|Bill|Bink|Birumbal|Blanziflor|Bloncissa|Blushes|Blysz|Bodzmordigin|Boox|Braergon|Brahmina|Brandelynne|Brannwen|Braydyn|Brentin|Brokkrsten|Bronwen|Brostaffa|Browork|Buckahannan|Buurdok|Byers|
+      |Caddeus|Cadfael|Calael|Calleef|Callyanna|Calphen|Canillia|Cantillon|Capium|Caralain|Cariah|Caselon|Castlana|Catrisha|Causa|Caveli|Cavistan|Caynia|Cedein|Cedreck|Celdryc|Celeric|Celibate|Celyx|Ceno|Cephas|Certas|Cessesii|Ceyrin|Chakaa|Chalica|Charos|Charra|Chaylar|Chelloh|Chenault|Chislon|Chizelle|Cindrasa|Cirik|Clancity|Clewan|Clexa|Cloejade|Coffie|Colbey|Compel|Conlin|Connehr|Corae|Corthus|Crovenant|Cruxer|Curthieus|Cyrek|Cystic|
+      |Dacorus|Daedo|Daeliera|Daenalan|Daennie|Dageras|Dagnyr|Daig|Daijauvex|Dailanson|Danaandim|Darcknight|Darcthundar|Dardosei|Darljin|Darrmoq|Darsham|Darteak|Darwul|Dasidian|Davrom|Dawkins|Daydreme|Dazgarst|Decayne|Deemula|Deevareeree|Delyorik|Demagor|Demitriy|Denrthe|Dervil|Devita|Devr|Dharteu|Dhuul|Diamondgold|Dicate|Dimia|Dispater|Dnus|Dooley|Doomfel|Dorgrum|Dorie|Dorryl|Drambik|Dramoth|Driskol|Drize|Dryhtnes|Dubhlainn|Duinn|Dundell|Dunderagg|Dunequeen|Duralgo|Dwarden|Dweia|Dyllin|
+      |Eathius|Ebonwing|Ecumen|Edrel|Edwyrd|Elaerys|Elandros|Elberethe|Elbromo|Eleanore|Electraw|Elijabah|Elionora|Eliseus|Elliandra|Elyzabethe|Embri|Endaar|Eneque|Enestrie|Entarrhe|Enviar|Eredon|Erendriel|Erillethe|Eriqa|Ernath|Errenis|Eruheran|Esana|Esstar|Esthair|Estinee|Esyr|Etien|Eugen|Eulis|Euroclydon|Evenara|Everan|Exitialis|Eyota|
+      |Faella|Fahjah|Fahlo|Fahrd|Faitedeiona|Falderon|Falkor|Falmarin|Falon|Faraighn|Fasicusts|Fayliinn|Fenwyk|Fhinex|Fibbo|Fitzan|Fluster|Forael|Foxye|Frawslin|Fyrus|
+      |Gamiron|Ganglius|Garenthe|Garnet|Garrai|Gaspin|Gastecoria|Gavret|Gelfora|Geovekn|Gergian|Geshron|Ghairat|Ghanio|Ghimble|Ghrayce|Gialynn|Gigehe|Giles|Gilgolaid|Gillieath|Gimmek|Girrand|Girthorn|Glismoda|Gnaeusprimus|Gnamnor|Goatly|Godefroy|Goldevia|Goodwin|Gorakk|Gordorack|Gothel|Gotorek|Gracy|Graka|Grayshadow|Grazeal|Greytear|Griffs|Grifis|Grimdi|Grizzleby|Growlen|Gryffydd|Grypto|Guenhafyr|Gukrig|Gulldan|Gumpas|Gundren|Gwenndolyn|Gyntle|Gzaar|
+      |Hadreon|Hadya|Hailifto|Hallowmun|Halsieg|Haras|Hastale|Havothor|Heavenmoon|Helten|Hiawathah|Highland|Holymoon|Hongo|Howard|Huangdi|Hueburt|Huenor|Huntmere|Hyke|Hypolyta|
+      |Ibero|Idiac|Iggles|Igorr|Ihara|Illidex|Illothin|Ilnn|Ilnock|Immik|Ineum|Innamorata|Inochi|Inte|Inwar|Ioeth|Irestos|Irindithriel|Irzon|Ishmael|Isioppe|Isthair|Ithakis|Ithann|Iyaa|
+      |Jabee|Jadzara|Jahtus|Jalvakish|Jamousii|Januk|Jarryn|Jasminn|Jason|Jebal|Jedian|Jedit|Jeebs|Jeg|Jeldharr|Jendha|Jennora|Jesteen|Jevalyn|Jevlin|Jheran|Jiggery|Jiire|Jimok|Jingo|Jnheii|Jocastae|Jodeco|Joeboree|Jojack|Jonid|Jontu|Jorrah|Journt|Jreebus|Jubbley|Judahh|Jug|Juillea|Junius|Jurmell|
+      |Kadesha|Kaedra|Kaelowyn|Kaeser|Kaiet|Kairnon|Kakaron|Kaladair|Kalaroth|Kalf|Kalivar|Kalnok|Kalynna|Karasye|Karine|Karnuc|Karrvik|Karus|Karythnia|Katealya|Katiesa|Katlathil|Kayelan|Kazran|Kazsra|Kearsey|Keech|Keemac|Keiper|Kelayin|Keldria|Kelrathir|Kelrion|Kelyntair|Kenndel|Kershaw|Keruta|Kethore|Khallenge|Kholac|Khright|Kilijjer|Kindamer|Kinpo|Kinre|Kinsley|Kintash|Kiol|Kivrin|Kjota|Kkrog|Klare|Kloire|Klonpoa|Klyle|Komaki|Kondus|Korvinah|Korzo|Kotaraya|Kragan|Krakii|Kratel|Kreager|Kreigan|Krendella|Kribbles|Krisenfest|Kristabel|Kristen|Kristis|Kronduhun|Kuvira|Kyann|Kyathia|Kyera|Kylaeh|Kyleana|Kyllthon|Kyota|Kyrahnii|Kyredic|Kysari|Kythaela|
+      |Laafe|Ladonn|Laete|Laeton|Lahvendar|Laij|Lakigigar|Lampsalium|Landorso|Lasciele|Laskon|Lassyter|Lastrite|Laurencia|Lazriel|Leafiara|Leafwild|Leahril|Lefera|Lehn|Leilaray|Leilly|Leivas|Lelicia|Leoeric|Lerrok|Lerrows|Leushen|Leyann|Lhandrak|Libis|Licky|Lightstep|Lilhemma|Lillandra|Lillyfields|Liltoll|Lilyanna|Lirem|Llyral|Loeistum|Lohre|Lorel|Lorestel|Losharn|Lothvar|Lovenex|Lowbottom|Luswenda|Lyaena|Lyddia|Lynera|Lynvai|Lysandra|
+      |Maags|Madmeria|Maeger|Maerc|Mahkenah|Mahlren|Maianna|Mailynne|Maldir|Malphite|Mandy|Mantz|Marasella|Margaret|Marukeena|Maureen|Mayaserrana|Mazey|Mcelliot|Meb|Mecklear|Megacleric|Meirci|Melchaeus|Mellchiah|Meneldur|Merenith|Meris|Merison|Merrett|Merwind|Mesana|Mikare|Mikaylyn|Milbury|Milyae|Mirandabliss|Mirg|Mistomeer|Mitte|Mkultra|Moaden|Mogui|Monax|Monotoli|Montresseur|Moonmystic|Moqimoka|Morandas|Mordanthe|Morngaine|Morphe|Mortius|Mucarluk|Mufassa|Muffi|Muthra|Myitkyina|Mykaree|Myrinnea|Mystana|Mysticrezer|Mythala|
+      |Nadja|Naedira|Naffy|Najiiv|Namikaze|Nanin|Narados|Naseer|Natlie|Naunakhte|Neagar|Necrothrall|Neez|Nefri|Nenrivia|Nervan|Neshira|Netain|Nevalorna|Nevik|Niara|Nibian|Nielso|Nightpriest|Nightraiser|Nikhiliam|Nishi|Nitawna|Niterezz|Nitergen|Njordr|Noblerm|Nosurogkozh|Notaneya|Nulore|Nurielle|Nyffeleyn|Nyko|Nytemare|Nyxeros|
+      |Oberion|Okeeper|Olbezim|Oldare|Oldrich|Olivendra|Olusis|Olybino|Olyss|Omah|Omnirus|Omridian|Opaleo|Orcero|Orihimae|Ossferatu|Ostes|
+      |Pachoosier|Paerdita|Pafe|Palau|Palefyre|Paradisia|Parinaaz|Paurel|Pekoni|Pempotam|Pengeposer|Penidiamond|Penny|Petror|Pettrah|Phantos|Phralek|Pipin|Piriotessa|Praethain|Pramil|Praytus|Preacher|Prerebezz|Pridering|Primetime|Primum|Prolly|Ptilius|Pugot|Pulsegiver|Pulsesaver|Purgatus|
+      |Qoge|Quadsnarf|Quanah|Quath|Quazyd|Queze|Quiethorne|Quildor|Quineyth|Quinion|Quintiana|
+      |Rabble|Rabskuttle|Radwick|Raervin|Raeveal|Raewynn|Rafique|Raglak|Rajev|Ralse|Ramose|Ranc|Raneng|Rarr|Raryomen|Rashek|Rasser|Rathain|Ravenessa|Ravidial|Rawine|Rayetale|Reanga|Reddraggon|Regallis|Regnig|Reikey|Remigio|Remmee|Rencelas|Rengel|Renqik|Ress|Restian|Resurrecto|Rezmoon|Rhackee|Rhadika|Rhagthar|Rhamis|Rhight|Rhii|Rhoanna|Rhurn|Rhustilor|Rickety|Rikkan|Rilena|Ripderp|Rippulia|Rivegul|River|Rmel|Rmeras|Rocardo|Rocious|Rohb|Rohese|Rollund|Romney|Ronavin|Rongolak|Ronivern|Rorge|Rothran|Rovadivine|Rowarder|Rukejah|Rup|Rupies|Ruppaz|Ruzzel|Rwynne|Ryenn|Ryndith|
+      |Sacerdotisa|Sacha|Sacrel|Saewen|Sagewind|Saintsbane|Salvashion|Salvation|Sameera|Samekh|Santiel|Saphoniya|Sardorne|Sarkkhan|Sarli|Saryphina|Saturnia|Sawt|Scotty|Seazarius|Sebthyl|Secilly|Sedrithe|Seeazan|Seizmic|Selemor|Seluus|Semantix|Semuael|Senrilato|Seremi|Serenwy|Serephrim|Seylia|Shaahn|Shadowean|Shakata|Shaniya|Shannivar|Shaukal|Sheyaela|Shinigami|Shiva|Shivald|Shonnin|Shymiryyn|Siafu|Silima|Sillumina|Silryn|Silverthreaded|Simcoe|Simralin|Simulacra|Sinari|Sintious|Sirannon|Skorve|Skoshiogosa|Skruf|Skydream|Slardar|Sling|Slivren|Smil|Smiteme|Smorcaoh|Smuthami|Snag|Snoobie|Snutz|Soliere|Solthas|Songie|Soulance|Soulsaver|Soulwolf|Sparstone|Specie|Spirial|Splice|Stabicus|Stanisloff|Stantis|Starey|Starhue|Starleeh|Starmizt|Starna|Startia|Strendor|Styxa|Subarashi|Subitto|Succendus|Summerh|Summerwind|Sunita|Swiftfeel|Swilling|Syainte|Sydna|Sylthana|Sylvurrin|Symerian|Synlias|Syrrek|
+      |THronn|Taariq|Tabmow|Taehulahn|Taelonn|Tairee|Talcorlyn|Talounus|Talsh|Tamaki|Tamlynn|Tamma|Tasaru|Tashinie|Tatenai|Tathlian|Tatiyanna|Tecs|Telsas|Tenouri|Tenzhen|Terces|Terraceles|Teryval|Tessarosa|Tharalyn|Tharfel|Thedwar|Theoan|Theradose|Thonan|Thonnel|Thordane|Thorndar|Thraer|Thulsa|Thumpt|Thurgrim|Tiggerman|Tij|Tijay|Tillie|Tillmont|Tilmok|Timov|Tinari|Tinkz|Tizorom|Togrelnia|Tohndul|Toshein|Tramwal|Trandith|Travul|Trellen|Treydar|Trillein|Trilya|Tristene|Truax|Truseal|Tsalinx|Tsimer|Tsoran|Tullonar|Tumoot|Turzolk|Twinklet|Tyarin|Tylea|Tyrc|Tyrrah|
+      |Ulthaine|Ulthanos|Uranus|Urdum|Urlyn|
+      |Valennia|Valkesh|Vallust|Valto|Valuria|Vandet|Vanel|Varucca|Vaud|Veddek|Veie|Vender|Vensten|Vercyor|Verlos|Verryn|Vespres|Vicimer|Vionicit|Vivecar|Vlada|Vlag|Vlandris|Vojo|Vonwirt|Vordu|Vorpodu|Vrairdrick|Vrawn|Vrinmyst|Vurkarron|Vymor|Vynce|Vynch|
+      |Wagley|Waitress|Warmongr|Warrezzer|Weni|Wertigo|Weryn|Whisker|Whitefoote|Widgit|Windi|Windtalker|Winks|Winstrel|Wintersylph|Wintrel|Wolfwud|Woodweavar|Wornac|Wulfguy|Wysteri|
+      |Xeb|Xelinia|Xibalba|Xorai|Xoshonel|
+      |Yamashido|Yansa|Yanwyn|Yerko|Yhtrin|Yjur|Ylandra|Yozin|Yqoia|Ysaela|Ysarus|Yterria|Yukfier|Yundah|Yzar|
+      |Zabarieth|Zachion|Zahgalden|Zairynn|Zanzt|Zarannah|Zarduk|Zarranna|Zatarra|Zefcey|Zelysius|Zenaxa|Zenogais|Zentalin|Zephryii|Zerbino|Zeriout|Zhika|Zicar|Zildigur|Zimdwen|Zja|Zodier|Zofeya|Zotzu|Zoyosogob|Zusanne|Zuun|Zygg|Zykn|Zyntanur|        
+    )\b
+	
+  </highlight>
+	
+	<!--Empath Characters-->
+	<highlight fg='F66433'>
+		\b(?:
+      |Aavuri|Abelio|Acanthyr|Acerbe|Aceso|Achantys|Acheloides|Adamina|Adasser|Adavelle|Aeavenne|Aeraelena|Aerico|Agmaar|Agmaar|Agrylin|Ahade|Aicila|Aieden|Aikei|Aimedri|Ainnah|Airaiel|Airlilia|Aistler|Ajeran|Akais|Akashe|Akran|Alaenon|Alarys|Alavast|Alcinus|Alderoan|Aldomon|Aleayah|Alendi|Alighieran|Alimarri|Alint|Aliria|Allamanda|Almus|Alonza|Aluenna|Alumarel|Alyiel|Alynith|Alyos|Alyssea|Alysson|Amadicias|Amberluna|Amby|Ambyrlyn|Ammill|Amorson|Amtor|Amuladia|Ana|Anaia|Anamalthea|Ancya|Andaleya|Andalusain|Andreaus|Aneris|Angelah|Angelfire|Angeliqe|Angkatell|Ankha|Anmut|Annabette|Anothi|Anrae|Antaco|Antonovich|Anyieh|Araquiel|Arcio|Ardonnia|Arede|Arezou|Arianwen|Aricanthis|Arleste|Arligan|Arrays|Arrisie|Artesmesia|Artie|Artoriosdemer|Arunai|Asatiel|Ascllepius|Ashanor|Asheldia|Ashina|Ashleigh|Ashnak|Ashondin|Asinaeus|Askikon|Astari|Astarog|Asterfie|Astrallea|Athanecia|Athgo|Athrel|Atision|Attermis|Audri|Augienna|Aurangzeb|Aurolita|Aurolite|Authriea|Autumnjustice|Avawren|Aveeno|Awesten|Awrek|Ayea|Aylaina|Ayldyne|Aylennia|Ayshiren|Azclepi|Azermies|Azraylia|
+      |Badonkadonk|Bagsand|Baleal|Balekia|Baleroc|Balley|Baragor|Barumples|Bealzr|Beldam|Beldarran|Bellelaide|Belmesar|Beloran|Belshuchaen|Bentuh|Bergerac|Berylla|Bessie|Bethalynn|Bettesia|Bibbins|Bilfords|Binta|Blackhen|Blerod|Blimby|Bonita|Boova|Bost|Brakkhen|Brandiri|Bratase|Brawnnix|Braydan|Brelinda|Brezlak|Briannae|Bricewind|Brighde|Bristles|Bronnwyn|Broosley|Bruta|Bryanth|Bsyn|Buen|Bumblin|Byerly|
+      |Cabeus|Cadock|Caellia|Caijin|Calamri|Calandris|Callayne|Cameton|Canith|Caralina|Caramont|Caretaker|Carolann|Caroway|Cattibrie|Caudata|Caytea|Celbrina|Celeerial|Celindea|Celisa|Cerebi|Cerrenia|Cerridween|Cervina|Cerwynn|Cerydwyn|Ceturalth|Chanari|Charbon|Chastittee|Chemaine|Cheska|Chesmaal|Chimesea|Chira|Choss|Christle|Cieldryn|Cisdan|Citra|Cjokula|Cleode|Cloveres|Clown|Clytius|Cniht|Cogon|Colomba|Concise|Cordraldia|Corky|Cortix|Crimsonscar|Cristofaro|Cruen|Cruithwynn|Crumbal|Cruxophim|Cusack|Cyana|Cylla|Cynthianna|
+      |Daale|Dabu|Dafixer|Dagwyn|Dahrling|Daima|Daneyella|Danticus|Dantineth|Darant|Darcena|Dargrahraag|Darkell|Daroll|Dashel|Daznor|Deagol|Deatrys|Dekiu|Demerik|Demia|Demytriks|Denissa|Denizani|Deralis|Dertok|Desferana|Deza|Dfarren|Dhill|Dhill|Diabolicoa|Didymus|Dimitriana|Dioscorides|Dirra|Dirvy|Dithio|Diynasta|Djacik|Dohvah|Dolant|Dolchai|Dommanic|Dommonique|Dosteph|Dowfen|Dracain|Draheali|Draiglok|Drakehealius|Drawyah|Dreaven|Dreknar|Drennix|Droch|Dunus|
+      |Eahnnia|Eais|Ealas|Earandel|Eastun|Ecklo|Egia|Egybol|Eiadh|Eidares|Eiddwen|Eirandor|Eironaan|Eivar|Elagon|Elaynea|Eldaria|Eldarick|Elderhan|Elekkan|Elennia|Elerdran|Elicai|Elionwey|Ellaine|Elleria|Elliania|Ellye|Elphieya|Elummeg|Elyman|Emberae|Emella|Emilianna|Emmerson|Enjohn|Enthrop|Entropium|Eoduin|Ephya|Erblug|Erialla|Erichos|Erieson|Erolun|Ertithis|Erzel|Escaliana|Espere|Estrellaj|Euphuist|Evai|Evellar|Evrali|Evyne|Ewres|Eyffi|Eynon|Eyona|
+      |Faekasha|Faeliche|Fairydust|Falisene|Farginses|Fauwkes|Featherstripe|Fectur|Fectur|Feltokia|Femea|Fendris|Ferre|Ferreti|Fiba|Findaile|Finwoop|Fixail|Flamestitch|Fleana|Flunky|Fonda|Fontrelin|Forane|Frankfurt|Fredireck|Freyadin|Froggai|Fumblina|Fycks|Fysician|
+      |Gabrieel|Gaertelinda|Galooga|Galuwen|Galzom|Garrish|Gellert|Geminischild|Gemshine|Geowyn|Gesund|Ghallow|Gharot|Gharvin|Giatros|Gickna|Gierach|Gilili|Gilliane|Gimina|Ginsei|Giogionni|Glacain|Glaivin|Glavader|Gnohow|Gnostikos|Gob|Googly|Gorfuinor|Gorthio|Gorthol|Gothique|Graivbound|Grantor|Gress|Grimel|Groggon|Gruener|Guennhafyr|Gulis|Guspen|Gweneivia|Gwenif|Gweniveer|Gwu|Gwynedd|Gyir|
+      |Hagetha|Hagram|Haidi|Halel|Halleck|Halled|Hallibus|Halnok|Halsin|Hamioukatou|Hantoar|Hartham|Havvel|Haynk|Heelfeets|Helak|Helman|Helq|Helsfeld|Hesten|Heyward|Hibiscus|Himmy|Holyian|Honic|Horith|Hothrog|Htitha|Huz|Hwarf|Hyacinthe|Hypochondrius|
+      |Ibbo|Icklon|Iian|Iistahl|Ijada|Ilande|Ilanistrea|Ileenia|Illaris|Illatta|Illianya|Illona|Ilrond|Imagestar|Indandya|Indiana|Indivara|Innocenze|Invasmani|Invuna|Iodina|Iodinna|Iogle|Ireolus|Irianaa|Iriena|Iristo|Iseo|Isheya|Ishizu|Ishnya|Ismurii|Itanic|Itiz|Ivyr|
+      |Jacina|Jadah|Jadall|Jadde|Jadeanna|Jadedlilly|Jaden|Jaelee|Jaggery|Jahira|Jaken|Jaksar|Jamus|Jandria|Jara|Jaranas|Jasimine|Jasmine|Jasnel|Jaspre|Jaundice|Javieve|Javind|Jayleena|Jaylle|Jebbidias|Jeehonaa|Jeemaji|Jeffeex|Jeliara|Jenifique|Jeria|Jeriah|Jerillette|Jessaiya|Jevir|Jillyn|Jilyae|Jimerson|Jinshao|Jodia|Joebus|Jonks|Joyanalyn|Justarias|Jynai|Jypsie|
+      |Kadishmal|Kahlanni|Kaihen|Kailii|Kaillend|Kailynne|Kalide|Kalif|Kalindre|Kalishiva|Kalixi|Kaln|Kambri|Kamiel|Kapera|Kareana|Kareese|Karlisle|Karlite|Karmiqua|Karok|Karya|Karylynn|Kasara|Kastille|Kataleena|Katauna|Katisa|Katrionna|Kauka|Kaxia|Kayf|Kazerak|Kazpar|Kearstan|Kediaq|Kegin|Kegla|Keirin|Kellierin|Kellsey|Kelranthor|Kelranthor|Kelticrift|Kemanorell|Kembal|Kemken|Keriline|Keristel|Kerthal|Kerven|Kestor|Kestrynna|Kethissil|Ketiosin|Keyion|Kezral|Khabron|Khaliana|Khaln|Kheynos|Khuna|Khyna|Kiahna|Kialeigh|Kieira|Kiesha|Kijimourr|Killerhealer|Killikia|Kipu|Kirissa|Kiske|Kitasi|Kithor|Kittelia|Kittypurr|Kiwoeachi|Kiyote|Kizalia|Kladiira|Klaser|Kloudy|Klubber|Kolania|Kolgran|Kordrutan|Korgar|Korpa|Korsa|Korzek|Kowai|Kraccken|Kragdruk|Krayfish|Krellis|Krello|Krigaren|Kristianna|Kriyo|Krushas|Krygard|Krystalena|Krystis|Krytann|Kuellen|Kwality|Kyaloria|Kyshaa|
+      |Laakshmi|Lacoon|Laenaren|Lahani|Lahmrupour|Laight|Lalieh|Lanthria|Laraynis|Larek|Larenusia|Lareya|Laryna|Lasentra|Lashonda|Lauralanthalass|Lauralen|Lauralinn|Laurea|Lazalye|Lazuras|Leanaben|Leisle|Lenara|Leomarvek|Levvia|Lewton|Licel|Liinah|Liljuay|Linion|Linji|Linnwei|Liquidfyre|Liri|Lisbethany|Lisiana|Lissanne|Lisyl|Littlepuff|Lizythia|Loclan|Loewin|Logarth|Lolabelle|Loralaii|Loreleki|Lorilea|Lorissia|Lraep|Lsett|Luaena|Lufangre|Lumples|Lureini|Luriella|Luth|Luthert|Luthris|Lyandrael|Lyndara|Lyndianne|Lynnei|Lynwynd|Lysithea|
+      |Mabina|Maeghlin|Maelkyth|Maenal|Maevie|Magnasco|Mahly|Mahz|Malcra|Mallard|Mallo|Malstar|Maltok|Mancielo|Mandiia|Manodieth|Maraiss|Marakin|Marielyn|Marigold|Marikaytte|Markoh|Martelina|Martles|Martyle|Massen|Matti|Maurra|Mawri|Maximuzs|Maxne|Maylan|Mazden|Mazgull|Mccoy|Medi|Medicar|Medicius|Medlivan|Meiku|Meit|Meladrem|Mendabone|Mendrielle|Mendsy|Mercya|Meriella|Meril|Merindow|Merjinia|Metrik|Meysa|Meythus|Mhurdoc|Miarieth|Micha|Mihorkan|Mikhyzabela|Mikiala|Mikison|Milarn|Militan|Minmei|Minniemae|Minsa|Mirando|Mirinia|Misfitz|Missandai|Mistjoy|Mooey|Moonkist|Mordinnia|Morneil|Morpheine|Morvai|Moura|Muleer|Mummbles|Muzgal|Myasarie|Myeira|Mylasandra|Myniart|Myoho|Myrefalcon|Myrej|Myrima|Mystilen|Mystiq|
+      |Nagina|Naina|Nakiro|Nali|Namini|Nascidas|Nashtil|Nazuick|Nazuik|Neari|Neeva|Neleourg|Neokai|Nerada|Nessya|Nevella|Nexushealbot|Nho|Niadja|Nidal|Niiri|Nikiita|Nimmira|Nimron|Nindy|Nishii|Noala|Nobuaki|Noctavia|Nodr|Norva|Nraul|Ntic|Nubbins|Nurrgi|Nyalieth|Nynari|Nyrae|Nyridrem|Nyssia|
+      |Obolere|Odevalis|Ogotee|Ogren|Oguo|Ohdwomin|Oktogon|Olivvia|Oltorn|Omby|Omiav|Omik|Onigiri|Onthanar|Onti|Oogala|Oralee|Ordre|Orenda|Orlicks|Oronis|Oroz|Orpius|Ortan|Orva|Oshiri|Osseum|Oub|Ouge|
+      |Paderau|Padrick|Paeluc|Paelyc|Palcron|Palena|Palliate|Pallor|Pancrise|Parabola|Parkens|Parland|Patecatl|Pathegon|Pavyc|Periwynkle|Perportuor|Perrie|Phanna|Phenoth|Pheragain|Pherlytt|Philthy|Piel|Piffaron|Pilars|Pinipin|Pirla|Pixelia|Pkin|Plaice|Plaice|Polarus|Pomar|Pompii|Pooht|Pracien|Prax|Priapa|Psylph|Psyryn|Purgram|Purinhar|
+      |Qatherina|Qerik|Qiana|Quixiweel|Qzaro|
+      |Rabach|Raddak|Radianze|Raekay|Raennea|Raetta|Raffe|Raguard|Rakhato|Raniella|Raqar|Rathore|Ravensilk|Raxtin|Raysher|Razzleberry|Reagan|Realer|Redsun|Reetta|Refram|Rekatrednu|Reletin|Relnia|Remeno|Remmas|Remme|Renavir|Renleve|Renlie|Renuhar|Repaire|Rervis|Reshil|Rews|Reygne|Rhangath|Rhank|Rhaylynn|Rhinuso|Rhuno|Richheal|Ricit|Riclay|Rigloor|Rimae|Rioghnach|Risiss|Rithis|Rivienne|Rixrix|Rizel|Rkien|Roelaren|Rogane|Rohail|Rok|Rondly|Ronven|Roselash|Roughisk|Rubytears|Rudar|Rummirasal|Rusiuss|Ryaz|Rylaarn|
+      |Sadhundi|Saesa|Sakio|Salinya|Salockin|Salunos|Salveo|Samantha|Sanae|Sanar|Sanare|Sandur|Sangoma|Santh|Sarayva|Sarcisse|Sarerah|Sareyna|Sargotir|Sarit|Sartorus|Sashanna|Sassillia|Sathen|Saunders|Saurost|Sauvage|Sawbone|Saxony|Scarswyrth|Scherry|Scimaay|Scione|Scrod|Scully|Seafollower|Seagle|Seashimmer|Selania|Selema|Seloran|Semoeh|Senjuu|Sennarik|Sensaysha|Seoret|Septuna|Seranai|Serath|Sereh|Serephyna|Seryan|Seviella|Shakrean|Shantillylace|Sharai|Shaydena|Shaylei|Sheev|Shellanie|Shieryel|Shimto|Shinann|Shirubarein|Shivago|Shux|Shylie|Shysmile|Siamere|Sidraa|Sihaya|Siierra|Silkourr|Silvannia|Silverli|Silversoft|Simlon|Simman|Sinaht|Sincerae|Sinrue|Sirona|Sissi|Siusan|Siwas|Sixle|Skartruse|Skoldern|Skyeblu|Skylara|Slimy|Slogoth|Slyant|Slyxx|Smorgie|Snowie|Snowmoon|Sodah|Solbank|Solbo|Soledat|Solorenza|Solorian|Solstys|Sophelia|Sorvial|Soryn|Sourd|Spacia|Spankyn|Sparello|Sraven|Starckly|Starkly|Starviska|Stavanroot|Steffani|Steworaeus|Stilla|Sudeeps|Suhorc|Sultredawn|Sultrevawn|Sunrea|Suriell|Surivitna|Sweetypie|Sybyll|Sylandrian|Syllisaira|Sylverose|Symbala|Sympath|Sympatica|Syndie|Syndryll|Synvespus|Synz|Syo|Syringe|Syyre|Szyxt|
+      |Taargust|Taedon|Taehui|Taerii|Taiu|Takeela|Talathea|Tameri|Tanivar|Taristania|Tarkaga|Tarlina|Tarsanic|Tarvok|Tawariell|Tayre|Tazzah|Teargust|Tearieyes|Teirian|Tejita|Tekerin|Telinah|Tellowyn|Telmon|Temi|Tenderanne|Tenderpuff|Tenika|Tercolla|Terny|Terzenta|Thadaen|Thaelorna|Thagg|Thailmore|Thanal|Thelena|Theodric|Therakan|Thistl|Thoarn|Thoromir|Thorric|Thrunn|Thuas|Thundin|Tian|Tincture|Tinish|Tiode|Tirnov|Tlaja|Togle|Tohrent|Tonist|Tonklin|Tooke|Topah|Toppo|Toreena|Torsh|Touchies|Tousle|Tozak|Traelina|Trahorn|Traiva|Tranqi|Tranquia|Tratan|Traveled|Trayleen|Trazier|Treauge|Trendorson|Tresavian|Triedo|Trinaindae|Tristo|Trixner|Troeika|Trubb|Truehewynn|Trumal|Trusilla|Tshaman|Tsida|Tuaath|Turkana|Turrothul|Tympre|Tyrean|Tyrir|Tyrosthenes|Tyrstald|Tzaruha|Tziporah|
+      |Uelan|Ugl|Uhhukuh|Ukyt|Ulgrim|Umbezi|Undand|Urgoyle|Urthor|Urudwek|
+      |Vaedalis|Vaenar|Vaetovia|Vaguely|Valania|Valante|Valashrim|Valsori|Vanai|Vance|Vawnique|Vaylnt|Vedrik|Velfi|Velvette|Verisma|Vicareous|Viede|Viloet|Violenttmoon|Visom|Volarus|Volfe|Vollena|Volwulf|Vordric|Vosim|Vot|Vroid|Vrom|Vujia|Vyvian|Vyzhdra|
+      |Waegukin|Wahka|Wandiana|Wanion|Weebey|Weewillow|Wendolynn|Weslee|Whaks|Whyssper|Wildrose|Wildthyme|Wimpen|Winelda|Winsilt|Wintersin|Winterwitch|Woodebrooke|Wordek|Worrial|Wreck|Wynlaag|Wyspircloud|
+      |Xanthras|Xentavier|Xigre|Xilona|Xjar|Xtreme|Xxentemar|Xykin|Xyliona|Xyltian|Xysius|
+      |Yaanek|Yaba|Yaffee|Yega|Yenene|Ygre|Yinza|Ylandrae|Ylink|Ynedron|Ynla|Yoli|Yosaffbrig|Ysabet|Yttrium|Yub|Yukimora|Yukito|Yurdoc|
+      |Zaemon|Zahlia|Zaien|Zakoru|Zandem|Zane|Zangold|Zarah|Zarakee|Zarlim|Zarmek|Zarzack|Zatlina|Zefqa|Zelyria|Zeoloes|Zephate|Zephryin|Zephyri|Zephyrius|Zhao|Zhiart|Ziaeroil|Zillazdon|Zimeros|Ziria|Zorst|Zrick|Zuie|Zulnes|Zuzana|Zxanadu|Zysiris|         
+    )\b
+	</highlight>
+	
+	<!--Monk Characters--> 
+	<highlight  fg='975E31'>
+		\b(?:
+      |Allizia|Amos|
+      |Brews|
+      |Everything|
+      |Jackburton|Jackiechan|
+      |Komar|Kharta|Kung|
+      |Miyaghi|Monster|
+      |Nolesse|
+      |Randy|Ronald|
+      |Shamonk|Shaolin|Sidras|Spockk|
+      |Trixie|
+      |Wukong|
+    )\b
+	</highlight>
+	
+	<!--Paladin Characters-->
+	<highlight  fg='716891'>
+    \b(?:
+      |Arthor|
+      |Dadbod|Deandra|Dennis|Doggett|
+      |Frohike|
+      |Innovate|
+      |Jirraturd|
+      |Langly|
+      |Mahal|
+      |Nomorre|
+      |Stimpy|
+      |Zero|Zeus|
+    )\b
+  
+		
+	</highlight>
+		
+	<!--Ranger Characters-->
+	<highlight  fg='2DAFA2'>
+		\b(?:
+      |Abysso|Allanor|Amerek|Anarquendi|Ankroson|Aravian|Archer|Arodon|Arshwikk|Artistansas|Aurach|
+      |Bahktaiini|Barachado|Barttonium|Belnia|Birdo|Bobby|Bordald|Brielus|Buronson|
+      |Clarissa|Chaoswynd|Chuckaar|
+      |Dara|Davel|Derryen|Diablic|Dimaire|Dinklz|Drakam|Driikn|Droit|
+      |Elsad|Erykk|Evrem|
+      |Frederiko|
+      |Gambino|Genysis|Geysis|Glanvis|Gnarble|Greenwolf|Greycrown|
+      |Haalen|Hairy|Heust|Hoy|Hoyt|Hypherdol|
+      |Imlost|Ironblue|
+      |Jesperus|
+      |Kakoon|Karibeth|Kilflin|Kittai|
+      |Leafbrook|Leifa|Lesse|Lormaek|Lost|Lyonis|
+      |Martieln|Meltun|Mitch|
+      |Najash|Nicadex|Nodread|Nuadjha|
+      |Odysia|
+      |Pandin|Payme|Poloneus|
+      |Quaroath|
+      |Rabenwolf|Radeek|Radom|Reddwolf|Regyy|Rova|Ruh|Ryku|Rysali|
+      |Sepher|Silkie|Silvendar|Silverthorne|Silvynn|Slocan|Slovigg|Syrend|
+      |Taru|Telum|Tenalin|Thornstar|Tigerwolf|Timmie|Tinder|Turinrond|Tykeara|
+      |Valdarrow|Varamond|Vrekk|Vrell|
+      |Walker|Wolfstarr|Wutaki|
+      |Yagnuts|Ysharra|
+    )\b
+	</highlight>
+	
+	<!--Rogue Characters-->
+	<highlight  fg='E89621'>
+		\b(?:
+      |Alexx|Astasa|
+      |Billy|Butch|Bytes|
+      |Exu|
+      |Franky|
+      |Gimrak|Gopnik|
+      |Houdini|
+      |Inan|Indy|Ivamor|
+      |Korben|
+      |Locksmith|
+      |Nexuspickbot|
+      |Quelthos|
+      |Rovashadow|
+      |Sha|Shapick|Stubbs| 
+      |Widmer|
+    )\b
+	</highlight>
+	
+	<!--Sorcerer Characters-->
+	<highlight fg='B666A9'>			
+		\b(?:
+      |Aendir|Adredrin|Allereli|Amioweil|Arcon|Ardque|Artemiss|Ashaman|Ashur|Ashraam|Atellus|Attoll|Azimar|
+      |Beaumian|Bellesue|Berkana|Brillat|Burrito|
+      |Caerilion|Chalon|Chrisjen|Clark|Cleodelia|Cobbeo|Contesserina|Crow|
+      |Daedeus|Daegal|Daguar|Dantax|Darwar|Deckits|Delarock|Demanec|Demietria|Dergoatean|Desorceri|Draithe|Drauz|
+      |Einde|Eoghain|Evarin|
+      |Faent|Fale|Ferliev|Fromer|
+      |Gadshill|Gedron|Gespry|Gnil|Godsatan|Gossard|Grimgul|Gromsph|
+      |Hades|Hammibal|Herel|Hrvac|
+      |Idiah|Innocent|
+      |Jenovadeath|Jurporia|
+      |Kaeynne|Kaldonis|Kaliopia|Kastrel|Katya|Kelestra|Khelvor|Kronius|Krovax|Krystanne|Kryx|
+      |Lavistan|Layndon|Leloo|Lilabell|Linsha|Linus|Lopan|Lourraine|Lylia|
+      |Maetriks|Magdolean|Mange|Mashina|Mattheiw|Mehrlicht|Melikor|Melivn|Merdrith|Mersteel|Meyhymm|Mikalmas|Missoni|Mistros|Mithumbras|Morgahan|Morgause|Morphias|Mot|Mystra|
+      |Nattor|Nektarius|Notasorcerer|Nubunga|
+      |Omens|Ozzan|
+      |Polveiss|Prospera|
+      |Quahadr|Querthose|
+      |Ragequit|Relic|Rheisia|Rhellium|Roft|Roiken|Rolfard|Rontuu|Roslin|Rozy|Ruineye|Rydia|
+      |Sadrae|Saervy|Safphire|Saraswati|Semtexx|Seracia|Sereg|Shaelethe|Shasorc|Shimmerain|Silvean|Siphere|Smokette|Soneiken|Sorchia|Sorsil|Sparrowhawk|Starcrye|Strange|Suntzhu|Suzan|Syberus|
+      |Talismann|Tarakan|Teclys|Teiana|Teus|Thornack|Troggz|Tseqa|
+      |Uhlume|Unclejack|
+      |Vaeryc|Vinicius|Virilneus|Vivina|
+      |Xandalf|Xeldrake|Xeniphite|Xoge|Xred|
+      |Yactaevia|
+      |Zailon|Zaoloo|Zeminar|Zhelas|Zlukhaine|Zulis|Zurrainn|		
+		)\b
+	</highlight>
+	
+	<!--Warrior Characters-->
+	<highlight  fg='DF394A'>
+		\b(?:
+      |Anglerolic|
+      |Beowulf|Buccaneer|
+      |Champ|
+      |Denarii|Dregoth|Drexen|
+      |Everwar|
+      |Ganz|
+      |Heracles|
+      |Kree|
+      |Lech|Liam|Luke|
+      |Mando|
+      |Naughtibouy|
+      |Omrii|
+      |Reeldeal|Reyes|Rovasmash|Ruinous|Ryann|
+      |Sharrior|Spartan|
+      |Trog|Tykus|
+      |Valiumn|Varrick|Verilynn|
+      |Wally|Whitegold|Widget|      
+    )\b
+	</highlight>
+	
+	<!--Wizard Characters-->
+	<highlight fg='3E92CF'>
+		\b(?:
+      |Aagoth|Aanalar|Aar|Aaramon|Aenalar|Aerofoil|Aetheri|Airveil|Akka|Alasatia|Alastir|Aldukar|Alex|Alfador|Algrus|Allanano|Allarone|Aloshia|Alsthar|Anemit|Aprildawn|Aprilsoft|Aranthius|Arkalm|Arkhaine|Arkios|Arwen|Askip|Astare|Astrall|Astrenoir|Aterik|Athias|Athinial|Aubreeze|Auratik|Aurla|Avenant|Azerik|
+      |Barundar|Bayerlien|Bhodili|Bigger|Blackbelly|Boora|Brimzstone|Bypin|
+      |Cadiva|Catweazel|Celery|Celtic|Cerryle|Certain|Cezzane|Chazym|Cigger|Chopad|Clao|Claudaro|Cles|Crayven|Crylone|
+      |Daeffodill|Dafydd|Darcimer|Darkeyez|Darkken|Darknick|Darlan|Dayko|Dazmar|Deadon|Delsa|Deysh|Digbicksby|Dionket|Dissipate|Dizzycat|Djinn|Dovezkry|Drafix|Dragonfaze|Drigler|Drunzak|Dunryc|
+      |Edgeleaf|Eiderfleur|Eldorone|Elementz|Eliaku|Elovin|Elthur|Elusivity|Emelyn|Equivocate|Erratic|Esk|Esperath|Exjavier|
+      |Farseeker|Faulkil|Fleurs|Flimble|Flyxx|Fraction|
+      |Galann|Gail|Geralt|Gestalt|Gishbatei|Gnafelot|Gondain|Grandevr|Graveltoe|Gravena|Gravy|Grendel|Grolschin|Gub|
+      |Hapenlok|Hellwig|Holden|
+      |Icedraggon|Iekid|Iluna|Imraith|Injaro|Inurtia|Ishalande|Isica|
+      |Jadiss|Jarrahkin|Jasreal|Jayvn|Jekyzia|Jeril|Jewlin|Jiarine|Joloven|Jullius|
+      |Kabo|Kapik|Karlstar|Kasamina|Katara|Kazoki|Khistian|Kirkk|Kitagaen|Kitton|Korlos|Kranar|Kratcheck|Krystala|Kurut|Kuthar|Kyard|
+      |Laevin|Laisric|Lalan|Lamie|Lard|Leslieanna|Livn|Lulz|
+      |Magnificos|Marhand|Masrath|Mber|Meffridus|Melenie|Merll|Merikas|Methais|Moleron|Morgwwyn|Morre|Motol|Myth|Mythrandyr|
+      |Nanna|Nazradin|Nithaxius|Notathias|
+      |Oeath|Oravia|Orisis|
+      |Palooka|Paragonimus|Pathragers|Pavender|Perses|Phates|Pinston|Pizon|Planet|Prometheus|Psionix|Pyris|
+      |Qaatil|Quallander|
+      |Raajah|Raggler|Ragz|Raelee|Ralanaa|Rancenx|Realk|Remly|Rhayveign|Rhedlum|Rhodrimawr|Rimalon|Rovabolt|Rovvigen|Rraptor|Rtune|Rupert|Ryjel|Rythn|
+      |Sabotage|Sagoth|Sairai|Salasin|Sarcasm|Savrin|Schala|Schmitty|Sebastus|Shaddox|Shaleah|Shaww|Sighisoara|Skieh|Skittish|Sleepy|Smoothaise|Sonrra|Sorrenn|Soulard|Soullslayur|Sparat|Sparowhawk|Spenster|Stephivie|Sydren|Syphaer|
+      |Taverkin|Taze|Telare|Telekin|Telus|Tenser|Thaisis|Tharken|Tillmen|Titaniae|Tomtom|Tonks|Tophal|Tottianna|Touk|Tsabrak|
+      |Uncapped|Unfuckwithable|	 
+      |Vadun|Valthissa|Vandele|Venkman|Vernly|Victorae|Vrannar|Vurkanaan|
+      |Whirlin|Wizip|Wizz|
+      |Xecnephias|
+      |Yaggie|Yarrious|
+      |Zanzimar|Zaphod|Zappur|Zizzle|Zodin|Zoge|Zzentar|		
+		)\b	
+	</highlight>
+  
+	<highlight fg='008000'>^---\sLich:.*</highlight>
+	<highlight fg='ff0000' bg='000000'>
+		\braffle\b|You sense you have just won a raffle for
+	</highlight>
+	<highlight fg='CAFF42'>
+		Your recent adventures echo powerfully in your mind
+	</highlight>
+	<highlight fg='FF5475'>
+		^It\sis\s(.*?)\sweighted\sto\sinflict\smore\scritical\swounds
+		|^It\sis\s(.*?)\spadded\sagainst\scritical\sblows
+		|^It\sprovides\sa\sboost\sof\s(.*?)$
+	</highlight>
+	<highlight fg='407F7F'>\((?:calmed|dead|flying|hiding|kneeling|prone|sitting|sleeping|stunned)\)</highlight>
+	<highlight fg='801515'>
+		 ^.* throws (?:his|her) arms skyward!$
+		|swirling black void
+		|(?:Dozens of flaming meteors light the sky nearby!
+		|Several flaming meteors light the nearby sky!
+		|Several flaming rocks burst from the sky and smite the area!
+		|A low roar of quickly parting air can be heard above!)</highlight>
+	<highlight fg='ffffff'>^.*(?:falls slack against the floor|falls slack against the ground|falls to the floor, motionless|falls to the ground dead|falls to the ground motionless|and dies|and lies still|goes still|going still)\.$</highlight>
+	<highlight fg='ffffff'>^.* is stunned!$|^You come out of hiding\.$</highlight>
+	<highlight fg='ffaaaa'>.*ruining your hiding place\.$|^You are no longer hidden\.$|^\s*You are (?:stunned|knocked to the ground).*|^You are unable to remain hidden!$|^You are visible again\.$|^You fade into sight\.$|^You fade into view.*|^You feel drained!$|^You have overextended yourself!$|^You feel yourself going into shock!$|^You feel the sting of a recent death slowly fade away, yet a lingering weakness remains.$</highlight>
+	<preset id='whisper' fg='88aaff'/>
+	<preset id='speech' fg='66ff66'/>
+	<preset id='room' fg='ffffff' bg='0000ff'/>
+	<preset id='monsterbold' fg='FFFD63'/>
+	<preset id='familiar' bg='00001a'/>
+	<preset id='thought' bg='001a00'/>
+	<preset id='voln' bg='001a00'/>
+	<preset id='debug' fg='badb73'/>
+	<preset id='rpa' fg='FF5475'/>
+	<preset id='link' fg='88accd'/>
+
+	<key id='alt'>
+		<!-- <key id='p' macro='\xput \? in my cinereal pants'/> -->
+		<key id='s' macro="\xstance "/>
+  		<key id='t' macro='\xtake \? from my backpack'/>
+  		<key id='l' macro='\xlook in my cinereal pants\r'/>
+  		<key id='a' macro='\xambush \? right leg'/>
+  		<key id='n' macro='\xput \? in my straps'/>
+  		<key id='u' macro='\xtake \? from my straps'/>				
+	</key>
+	
+  <key id='right' macro='\xeast\r'/>
+  
+  
+  <key id='+' macro='\xlook\r'/>
+  <key id='/' macro='\xhealth\r'/>
+ <!--  <key id='-' macro='\xinfo\r'/> -->
+  <key id='*' macro='\xexp\r'/>
+  
+ <!--  <key id='.' macro='\xup\r'/>
+  <key id='331' macro='\xdown\r'/>
+  <key id='360' macro='\xsw\r'/>
+  <key id='258' macro='\xs\r'/>
+  <key id='338' macro='\xse\r'/>
+  <key id='260' macro='\xw\r'/>
+  
+  <key id='261' macro='\xe\r'/>
+  <key id='262' macro='\xnw\r'/>
+  <key id='259' macro='\xn\r'/>
+  <key id='339' macro='\xne\r'/>
+
+
+<k key="Keypad 5" action="\xout\r"/>
+
+  
+	<key id ='552' macro='\x;gather\r'/> -->
+
+	<key id='f5' macro='\x;go2 town\r'/>
+		
+	<key id='ctrl+z' macro='\xwhisper '/>
+	<!-- <key id='ctrl+r' macro='\x{Rest}\r'/> -->
+ 
+  
+	<!-- <key id='ctrl+n' macro='\xput \? in my straps'/>
+	<key id='ctrl+u' macro='\xtake \? from my straps'/>
+	<key id='plus' macro='\xlook\r'/>
+	<key id='alt+left' macro='stance def\r'/> -->
+	
+	<key id='enter' action='send_command'/>
+	<key id='left' action='cursor_left'/>
+	<key id='right' action='cursor_right'/>
+	<key id='ctrl+left' action='cursor_word_left'/>
+	<key id='ctrl+right' action='cursor_word_right'/>
+	
+	<!-- <key id='home' action='cursor_home'/>
+	<key id='end' action='cursor_end'/> -->
+	
+	<key id='home' action='scroll_thought_up'/>
+	<key id='end' action='scroll_thought_down'/>
+	
+	<key id='backspace' action='cursor_backspace'/>
+	<key id='win_backspace' action='cursor_backspace'/>
+	<key id='ctrl+?' action='cursor_backspace'/>
+	<key id='delete' action='cursor_delete'/>
+	<key id='tab' action='switch_current_window'/>
+	
+	<key id='alt+page_up' action='scroll_current_window_up_one'/>
+	<key id='alt+page_down' action='scroll_current_window_down_one'/>	
+	<key id='up' action='previous_command'/>
+	<key id='down' action='next_command'/>
+	
+	<key id='page_up' action='scroll_current_window_up_page'/>
+	<key id='page_down' action='scroll_current_window_down_page'/>
+	
+	<!-- <key id='up' action='scroll_current_window_up_one'/>
+	<key id='down' action='scroll_current_window_down_one'/>
+	
+	<key id='button_4' action='scroll_current_window_up_one'/>
+	<key id='button_5' action='scroll_current_window_down_one'/>
+	
+	<key id='page_up' action='previous_command'/>
+	<key id='page_down' action='next_command'/> -->
+	
+	
+	<key id='ctrl+up' action='send_last_command'/>
+	<key id='alt+up' action='send_second_last_command'/>
+	<key id='resize' action='resize'/>
+
+	<layout id='default'>
+		<main_colors fg='ffffff' bg='1a1a1a'/>
+		
+		<window class="indicator" top='lines-62'  left='1' height='1' width='50'  label='Left' fg='ffffff'/>
+		<window class="indicator" top='lines-61'  left='1' height='1' width='50'  value='left' label='Empty' />
+		<window class="indicator" top='lines-60'  left='1' height='1' width='50'  label='Right' fg='ffffff'/>
+		<window class="indicator" top='lines-59'  left='1' height='1' width='50' value='right' label="Empty" />
+		
+		<!-- <window class='text' top='lines-50' left='40'  height='37' width='140' value='main' buffer-size='2000' fg='ffffff' bg='290055'/> -->
+    
+    <window class='text' top='lines-50' left='40'  height='37' width='140' value='main' buffer-size='2000' fg='ffffff' bg='1a1a1a'/>
+		
+		<window class='text' top='lines-60'  left='40'   height='9' width='140' value='lnet,thoughts,voln,speech,death,logons' buffer-size='2000' />		
+		<!-- <window class='text' top='lines-12'  left='40' height='1' width='140'  value='title' buffer-size='2000' bg='290055,002222'/>
+		<window class='text' top='lines-11'  left='40' height='3' width='140'  value='room' buffer-size='2000' bg='003333,002222'/>
+		<window class='text' top='lines-8'  left='40' height='4' width='140'  value='also_see' buffer-size='2000' bg='003333,002222'/>
+		<window class='text' top='lines-4'  left='40' height='1' width='140'  value='room_exits' buffer-size='2000' bg='003333,002222'/>
+		<window class='text' top='lines-3'  left='40' height='2' width='140'  value='also_here' buffer-size='500' /> -->
+		
+		<window class='text' top='lines-13'  left='40' height='12' width='140'  value='room' buffer-size='2000' bg='003333,002222'/>
+		
+		
+		<!-- <window class='text' top='lines-58' left='181' height='20' width='140'  value='speech' buffer-size='2000' />		 -->
+		<!--<window class='text' top='1'  left='181' height='12' width='118'  value='familiar' buffer-size='2000' />  -->
+		<!--<window class='text' top='14' left='181'   height='7' width='19'  value='death' buffer-size='500' />  -->
+		<window class='text' top='lines-63' left='40'   height='3' width='140'  value='logons' buffer-size='500' />
+		<!--<window class='text' top='lines-12'  left='40' height='11' width='140'  value='room,roomDesc,roomName' buffer-size='500' />-->
+		
+		<window class='text' top='lines-38'  left='181' height='37' width='39'  value='xml_here,showxml_debug_window' buffer-size='500' />
+		<window class='text' top='lines-58'  left='1' height='15' width='39'  value='inv_container' buffer-size='500' />
+		<window class='text' top='lines-44'  left='1' height='29' width='39'  value='item_container' buffer-size='500' />
+		<window class='text' top='lines-61'  left='181' height='30' width='39'  value='spell_container' buffer-size='500' />		
+		<window class='indicator' top='lines-1' left='40' height='1' width='1' label='&gt;' value='prompt' fg='ffffff,1a1a1a'/>
+		<window class='command'   top='lines-1' left='41' width='cols-21' height='1' />
+		<window class='progress' top='lines-11' left='0' width='11' height='1' label='Stance:' value='stance' bg='290055'/>
+		<window class='progress' top='lines-10' left='0' width='11' height='1' label='Mind:' value='mind' bg='663000,442000'/>
+		<window class='progress' top='lines-8' left='0' width='11' height='1' label='Health:' value='health' bg='004800,003300'/>
+		<window class='progress' top='lines-7' left='0' width='11' height='1' label='Spirit:' value='spirit' bg='333300,222200'/>
+		<window class='progress' top='lines-6' left='0' width='11' height='1' label='Mana:' value='mana' bg='0000a0,000055'/>
+		<window class='progress' top='lines-5' left='0' width='11' height='1' label='Stam:' value='stamina' bg='003333,002222'/>
+		<window class='progress' top='lines-3' left='0' width='11' height='1' label='Load:' value='encumbrance' bg='990033,4c0019' fg='nil,nil,nil,f7f7f7'/>
+
+		<!--<window class='countdown' top='lines-2' left='0' width='11' height='1' label='Stun:' value='stunned' fg='f7f7f7,dddddd' bg='nil,aa0000'/>-->
+		<window class='countdown' top='lines-2' left='0' width='11' height='1' label='Stun:' value='stunned' fg='f7f7f7,dddddd,dddddd,dddddd' bg='nil,aa0000,0000aa'/>
+		
+		<!--<window class='countdown' top='lines-1' left='0' width='11' height='1' label='rndtime:' value='roundtime' fg='f7f7f7,dddddd,dddddd,dddddd' bg='nil,aa0000,0000aa'/>-->
+		<window class='countdown' top='lines-1' left='0' width='11' height='1'  label='Rndtime:' value='roundtime' fg='4b4b4b,dddddd,dddddd,dddddd' bg='nil,aa0000,0000aa'/>
+		<window class='countdown' top='lines-1' left='41' width='140' height='1' label='Bar_Time' value='bar_time' fg='4b4b4b,dddddd,dddddd,dddddd' bg='nil,aa0000,0000aa'/>
+		
+		<!-- <window class='indicator' top='lines-15' left='1' height='1' width='1' label='^' value='compass1:up' fg='f7f7f7,ffff00'/>
+		<window class='indicator' top='lines-14' left='1' height='1' width='1' label='o' value='compass1:out' fg='f7f7f7,ffff00'/>
+		<window class='indicator' top='lines-13' left='1' height='1' width='1' label='v' value='compass1:down' fg='f7f7f7,ffff00'/>
+		<window class='indicator' top='lines-15' left='5' height='1' width='1' label='*' value='compass1:nw' fg='f7f7f7,ffff00'/>
+		<window class='indicator' top='lines-14' left='5' height='1' width='1' label='&lt;' value='compass1:w' fg='f7f7f7,ffff00'/>
+		<window class='indicator' top='lines-13' left='4' height='1' width='1' label='*' value='compass1:sw' fg='f7f7f7,ffff00'/>
+		<window class='indicator' top='lines-15' left='7' height='1' width='1' label='^' value='compass1:n' fg='f7f7f7,ffff00'/>
+		<window class='indicator' top='lines-13' left='6' height='1' width='1' label='v' value='compass1:s' fg='f7f7f7,ffff00'/>
+		<window class='indicator' top='lines-15' left='9' height='1' width='1' label='*' value='compass1:ne' fg='f7f7f7,ffff00'/>
+		<window class='indicator' top='lines-14' left='9' height='1' width='1' label='&gt;' value='compass1:e' fg='f7f7f7,ffff00'/>
+		<window class='indicator' top='lines-13' left='8' height='1' width='1' label='*' value='compass1:se' fg='f7f7f7,ffff00'/> -->
+		
+	 	<window class='indicator' top='lines-15' left='1' height='1' width='1' label='^' value='compass:up' fg='4b4b4b,ffff00'/> 
+		<window class='indicator' top='lines-14' left='1' height='1' width='1' label='o' value='compass:out' fg='4b4b4b,ffff00'/>
+		<window class='indicator' top='lines-13' left='1' height='1' width='1' label='v' value='compass:down' fg='4b4b4b,ffff00'/> 
+		<window class='indicator' top='lines-15' left='6' height='1' width='1' label='*' value='compass:nw' fg='4b4b4b,ffff00'/>
+		<window class='indicator' top='lines-14' left='6' height='1' width='1' label='&lt;' value='compass:w' fg='4b4b4b,ffff00'/>
+		<window class='indicator' top='lines-13' left='6' height='1' width='1' label='*' value='compass:sw' fg='4b4b4b,ffff00'/>
+		<window class='indicator' top='lines-15' left='8' height='1' width='1' label='^' value='compass:n' fg='4b4b4b,ffff00'/>
+		<window class='indicator' top='lines-13' left='8' height='1' width='1' label='v' value='compass:s' fg='4b4b4b,ffff00'/>
+		<window class='indicator' top='lines-15' left='10' height='1' width='1' label='*' value='compass:ne' fg='4b4b4b,ffff00'/>
+		<window class='indicator' top='lines-14' left='10' height='1' width='1' label='&gt;' value='compass:e' fg='4b4b4b,ffff00'/>
+		<window class='indicator' top='lines-13' left='10' height='1' width='1' label='*' value='compass:se' fg='4b4b4b,ffff00'/>
+		
+
+		<window class='indicator' top='lines-12' left='23' height='1' width='1' label='-' value='injury:head,nsys' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-12' left='22' height='1' width='1' label='.' value='injury:head1,nsys1' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-12' left='24' height='1' width='1' label='.' value='injury:head2,nsys2' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		
+		<window class='indicator' top='lines-11' left='20' height='1' width='1' label='_' value='injury:leftArm' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-11' left='21' height='1' width='1' label='_' value='injury:leftArm1' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-11' left='22' height='1' width='1' label='|' value='injury:head3,nsys3' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-11' left='23' height='1' width='1' label='=' value='injury:leftEye,injury:rightEye' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-11' left='24' height='1' width='1' label='|' value='injury:head4,nsys4' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-11' left='25' height='1' width='1' label='_' value='injury:rightArm' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-11' left='26' height='1' width='1' label='_' value='injury:rightArm1' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		
+		<window class='indicator' top='lines-10' left='19' height='1' width='1' label='(' value='injury:leftArm2' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-10' left='20' height='1' width='1' label='_' value='injury:leftArm3' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-10' left='21' height='1' width='1' label='/' value='injury:chest,injury:back' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-10' left='22' height='1' width='1' label='`' value='injury:neck' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-10' left='23' height='1' width='1' label='-' value='injury:neck1' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-10' left='24' height='1' width='1' label='`' value='injury:neck2' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-10' left='25' height='1' width='1' label='\' value='injury:chest1,injury:back1' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-10' left='26' height='1' width='1' label='_' value='injury:rightArm2' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-10' left='27' height='1' width='1' label=')' value='injury:rightArm3' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		
+		<window class='indicator' top='lines-9' left='19' height='1' width='1' label='/' value='injury:leftArm4' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-9' left='20' height='1' width='1' label='/' value='injury:leftArm5' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-9' left='21' height='1' width='1' label='\' value='injury:chest2,injury:back2' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-9' left='22' height='1' width='1' label='_' value='injury:chest3,injury:abdomen,injury:back3' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-9' left='23' height='1' width='1' label='_' value='injury:chest4,injury:abdomen1,injury:back4' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-9' left='24' height='1' width='1' label='_' value='injury:chest5,injury:abdomen2,injury:back5' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-9' left='25' height='1' width='1' label='/' value='injury:chest6,injury:back6' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-9' left='26' height='1' width='1' label='\' value='injury:rightArm4' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-9' left='27' height='1' width='1' label='\' value='injury:rightArm5' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		
+		<window class='indicator' top='lines-8' left='19' height='1' width='1' label='0' value='injury:leftArm6' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-8' left='21' height='1' width='1' label='/' value='injury:abdomen3' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-8' left='22' height='1' width='1' label='_' value='injury:abdomen4' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-8' left='23' height='1' width='1' label='.' value='injury:abdomen5' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-8' left='24' height='1' width='1' label='_' value='injury:abdomen6' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-8' left='25' height='1' width='1' label='\' value='injury:abdomen7' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>		
+		<window class='indicator' top='lines-8' left='27' height='1' width='1' label='0' value='injury:rightArm6' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		
+		<window class='indicator' top='lines-7' left='19' height='1' width='1' label='\' value='injury:leftHand' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-7' left='21' height='1' width='1' label='|' value='injury:abdomen8' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-7' left='23' height='1' width='1' label='|' value='injury:leftLeg,injury:rightLeg' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-7' left='25' height='1' width='1' label='|' value='injury:abdomen9' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-7' left='27' height='1' width='1' label='/' value='injury:rightHand' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		
+		<window class='indicator' top='lines-6' left='21' height='1' width='1' label='|' value='injury:leftLeg1' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-6' left='22' height='1' width='1' label='-' value='injury:leftLeg2' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-6' left='23' height='1' width='1' label='|' value='injury:leftLeg3,injury:rightLeg1' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-6' left='24' height='1' width='1' label='-' value='injury:rightLeg2' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-6' left='25' height='1' width='1' label='|' value='injury:rightLeg3' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		
+		<window class='indicator' top='lines-5' left='21' height='1' width='1' label='|' value='injury:leftLeg4' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>		
+		<window class='indicator' top='lines-5' left='23' height='1' width='1' label='|' value='injury:leftLeg5,injury:rightLeg4' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>	
+		<window class='indicator' top='lines-5' left='25' height='1' width='1' label='|' value='injury:rightLeg5' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		
+		<window class='indicator' top='lines-4' left='21' height='1' width='1' label='/' value='injury:leftLeg6' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>	
+		<window class='indicator' top='lines-4' left='22' height='1' width='1' label='_' value='injury:leftLeg7' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>	
+		<window class='indicator' top='lines-4' left='23' height='1' width='1' label='|' value='injury:leftLeg8,injury:rightLeg6' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-4' left='24' height='1' width='1' label='_' value='injury:rightLeg7' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		<window class='indicator' top='lines-4' left='25' height='1' width='1' label='\' value='injury:rightLeg8' fg='ffffff,ffff00,ff6600,ff0000,00ffff,0066ff,0000ff'/>
+		
+		<window class='indicator' top='lines-11' left='15' height='1' width='2' label='psn' value='other:poisoned' fg='ffffff,ff0000'/>
+		<window class='indicator' top='lines-10' left='15' height='1' width='2' label='dis' value='other:diseased' fg='ffffff,ff0000'/>
+		<window class='indicator' top='lines-9' left='15' height='1' width='2' label='bld' value='other:bleeding' fg='ffffff,ff0000'/>
+	</layout>
+</settings>
